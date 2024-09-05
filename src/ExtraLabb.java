@@ -32,7 +32,7 @@ public class ExtraLabb {
                     System.out.println(toDo);
                     System.out.println("Which toDo would you like to pick?");
                     int choice2 = tryCatch.tryCatch2(toDo.size());
-                    System.out.println("You picked: " + choice2);
+                    System.out.println("You picked: " + toDo.get(choice2));
                     break;
                 case 4:
                     System.out.println("Goodbye!");
